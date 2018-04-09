@@ -1,0 +1,19 @@
+A few ideas to get our list of ideas started
+
+1) (Auto Quiz) An application that allows users to create quiz questions and generates a new quiz application that is self-grading. 
+
+2) (Auto Cover Letter) An application that automatically writes cover letters and lets you preview them. You would enter in certain information,
+    and choose options for customization from lists.
+    
+3) (Budget Planner) An application that plans your monthly budget. It should allow you to enter in new items and their price and see your data bank 
+    of all the items you have entered in over time. You should be able to add quantities of those items to your monthly 
+    expenditures, you should be able to see the list of your total monthly expenditures, and you should be able to delete items
+    at will. Ultimately, the program should calculate your total monthly expenditures. 
+    
+4) (Contact Book) A contact book that allows you to create new contacts and store their names, email addresses, phone numbers, and a description
+    (and maybe a photo). You can also create categories (maybe color coded), and assign those contacts to those categories. You should
+    then be able to filter over category.
+    
+5) (Day Planner) A calendar/day programmer where you can create categories (again, color coded), and assign each of your events to different 
+    categories. You should be able to see your monthly calendar, weekly calendar, and day planner. You should also be able to see a list of 
+    all of the events in each different category for the day, week, and month. Maybe we could also set up an alert system. 
