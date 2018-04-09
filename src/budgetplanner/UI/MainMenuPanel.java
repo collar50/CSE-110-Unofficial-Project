@@ -1,9 +1,8 @@
 /*
-    @TODO I need to update the item database buttons action listener
-        to something that works better. When I remove and add the other 
-        components, it messes up the layout. I should really be making a
-        call to a method on the frame that replaces this panel with 
-        another panel. 
+    @TODO 
+        1) Set up the 'manage budgets' subpanel.
+        2) Hook b2 button up to 'manage budgets' panel. 
+        3) Play with colors in the Subpanel file to make something better looking. 
  */
 package budgetplanner.UI;
 
