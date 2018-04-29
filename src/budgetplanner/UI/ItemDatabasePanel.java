@@ -88,21 +88,21 @@ public class ItemDatabasePanel extends Subpanel {
         gbc.gridwidth = 1;
         gbc.fill = GridBagConstraints.HORIZONTAL;
         DecorateComponent(namePrompt, LABEL_COLOR, 12, EMPTY_BORDER);
-        PositionComponent(gbc, namePrompt, 0, 1, .3, 0);
+        PositionComponent(gbc, namePrompt, 0, 1, .1, 0);
 
         // Price Prompt
         pricePrompt = new JLabel("<html><center>Price:", SwingConstants.CENTER);
         gbc.gridwidth = 1;
         gbc.fill = GridBagConstraints.HORIZONTAL;
         DecorateComponent(pricePrompt, LABEL_COLOR, 12, EMPTY_BORDER);
-        PositionComponent(gbc, pricePrompt, 0, 2, .3, 0);
+        PositionComponent(gbc, pricePrompt, 0, 2, .1, 0);
 
         // Description Prompt
         descriptionPrompt = new JLabel("<html><center>Description:", SwingConstants.CENTER);
         gbc.gridwidth = 1;
         gbc.fill = GridBagConstraints.HORIZONTAL;
         DecorateComponent(descriptionPrompt, LABEL_COLOR, 12, EMPTY_BORDER);
-        PositionComponent(gbc, descriptionPrompt, 0, 3, .3, 0);
+        PositionComponent(gbc, descriptionPrompt, 0, 3, .1, 0);
     }
 
     private void setUpTextFields() {

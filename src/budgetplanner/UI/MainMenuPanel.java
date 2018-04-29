@@ -85,6 +85,13 @@ public class MainMenuPanel extends Subpanel {
                 frame.changeView(frame.getItemDatabasePanel());
             }
         }
+        
+        class ManageBudgetListener implements ActionListener{
+            @Override
+            public void actionPerformed(ActionEvent ae){
+                frame.changeView(frame.getManageBudgetPanel());
+            }
+        }
 
         JButton b1, b2;
 
@@ -97,6 +104,8 @@ public class MainMenuPanel extends Subpanel {
         b2 = new JButton("Manage Budgets");
         DecorateComponent(b2, BUTTON_COLOR, 25, BUTTON_BORDER);
         PositionComponent(gbc, b2, 0, 2, .5f, 1f); // need to make weightY of last component 1 to push stuff up to the top. 
+        ActionListener listener2 = new ManageBudgetListener();
+        b2.addActionListener(listener2);
 
     }
 }

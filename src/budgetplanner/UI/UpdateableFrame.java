@@ -10,6 +10,7 @@ public class UpdateableFrame extends JFrame{
     private final JPanel container;
     private final Subpanel mainMenuPanel;
     private final Subpanel itemDatabasePanel;
+    private final Subpanel manageBudgetPanel;
     //private final Subpanel budgetList;
     //private Subpanel[] budgets = {};
     private final CardLayout card;
@@ -19,7 +20,7 @@ public class UpdateableFrame extends JFrame{
     // CONSTRUCTORS ------------------------------------------------------------
     public UpdateableFrame(){
         // Local Constants
-        final int WIDTH = 500;
+        final int WIDTH = 1250;
         final int HEIGHT = 750;
         
         // Instantiate our card layout, our container panel, and our subpanels.
@@ -27,7 +28,7 @@ public class UpdateableFrame extends JFrame{
         container = new JPanel();
         mainMenuPanel = new MainMenuPanel(this);
         itemDatabasePanel = new ItemDatabasePanel(this);
-        
+        manageBudgetPanel = new ManageBudgetPanel(this);
         // Create components in subpanels
         //mainMenuPanel.CreatePanel(this);
         //itemDatabasePanel.CreatePanel(this);
@@ -36,6 +37,7 @@ public class UpdateableFrame extends JFrame{
         container.setLayout(card);
         container.add(mainMenuPanel, mainMenuPanel.getPanelName());
         container.add(itemDatabasePanel, itemDatabasePanel.getPanelName());
+        container.add(manageBudgetPanel, manageBudgetPanel.getPanelName());
         
         // Show the main menu panel -> This is how we decide which subpanel
         // we see.
@@ -56,6 +58,10 @@ public class UpdateableFrame extends JFrame{
     
     public Subpanel getItemDatabasePanel(){
         return itemDatabasePanel;
+    }
+    
+    public Subpanel getManageBudgetPanel(){
+        return manageBudgetPanel;
     }
     
     // OTHER INTERFACE METHODS -------------------------------------------------
